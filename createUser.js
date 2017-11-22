@@ -1,0 +1,10 @@
+db.createUser({
+	user:'gowebapp',
+	pwd:'gowebapp',
+	roles:[
+	{
+		'role':'userAdmin',
+		'db':'gowebapp'
+	}
+	]
+})
